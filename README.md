@@ -1,2 +1,1 @@
-# practice
-Problem solving practice
+# Problem Solving Practise
