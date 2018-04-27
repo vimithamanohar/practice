@@ -1,6 +1,7 @@
 import math
 import unittest
 
+
 def get_line(arr, x, y, ln, dx, dy):
     ret = []
     for i in range(ln):
@@ -8,6 +9,7 @@ def get_line(arr, x, y, ln, dx, dy):
         x = x + dx
         y = y + dy
     return ret
+
 
 def get_square(arr, x, y, ln):
     if ln == 0:
@@ -23,9 +25,9 @@ def get_square(arr, x, y, ln):
     ret.extend(get_line(arr, x + ln - 1, y, ln - 1, -1, 0))
     return ret
 
+
 def get_spiral(arr):
     arr_len = len(arr)
-    #print(arr_len)
     if arr_len == 0:
         return []
 
